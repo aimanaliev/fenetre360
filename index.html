@@ -32,28 +32,69 @@
     <link rel="icon" href="https://developer.mozilla.org/static/img/favicon32.png">
 
     <script src="./scripts/my-js-file.js" defer></script>
-
-
-
-
-
+    
 </head>
 <body>
     <!--Visible at the top of every page on the site. Contains information relevant to all pages (like site name or logo) and an easy-to-use navigation system.-->
     <header>
         <h1>Welcome to the new page!</h1>
-        <h2>This is h2 </h2>
-        <h2>This is h2bis </h2>
-        <h3>Check to see</h3>
     </header>
+    <!--Links to the site's main sections; usually represented by menu buttons, links, or tabs. Like the header, this content usually remains consistent from one webpage to another -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Our team</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+            <form>
+                <input type="search" name="q" placeholder="Search query">
+                <input type="submit" value="Go!">
+            </form>     
+        </ul>
+    </nav>
 
     <!--The biggest region, containing content unique to the current page.-->
-    <main></main>
+    <main>
+      <!-- It contains an article -->
+      <article>
+        <h2>Article heading</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
+        <section>
+            <h3>Subsection</h3>
+            <p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.</p>
+            <p>Pelientesque auctor nisi id magna consequat sagittis. Curabitur dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros.</p>
+        </section>
+
+        <section>
+            <h3>Another subsection</h3>
+            <p>Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum soclis natoque penatibus et manis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.</p>
+            <p>Vivamus fermentum semper porta. Nunc diam velit, adipscing ut tristique vitae sagittis vel odio. Maecenas convallis ullamcorper ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, is fringille sem nunc vet mi.</p>
+        </section>
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Z8LILUypa_w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d42660.83948252566!2d6.818086368833103!3d48.06580433895409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4793c650337eeaf1%3A0x40a5fb99a3781d0!2s88400%20G%C3%A9rardmer!5e0!3m2!1sfr!2sfr!4v1657144559287!5m2!1sfr!2sfr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <a href="./files/sample.pdf" target="_blank"> My pdf file sample</a>
+        </div>
+     </article>
+        
+    </main>
     
     <!--1) Information complementing the main content; 2) information shared among a subset of pages; 3) alternative navigation system. In fact, everything not absolutely required by the page's main content.-->
-    <aside></aside>
+    <aside>
+        <h2>Related</h2>
+
+        <ul>
+          <li><a href="#">Oh I do like to be beside the seaside</a></li>
+          <li><a href="#">Oh I do like to be beside the sea</a></li>
+          <li><a href="#">Although in the North of England</a></li>
+          <li><a href="#">It never stops raining</a></li>
+          <li><a href="#">Oh well...</a></li>
+        </ul>
+    </aside>
     
     <!--Visible at the bottom of every page on the site. Like the header, contains less prominent global information like legal notices or contact info.-->
-    <footer></footer>
+    <footer>
+        <p>©Copyright 2050 by nobody. All rights reversed.</p>
+    </footer>
 </body>
 </html>
