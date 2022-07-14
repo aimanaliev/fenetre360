@@ -30,7 +30,7 @@
     <link rel="apple-touch-icon-precomposed" href="https://developer.mozilla.org/static/img/favicon57.png">
 
     <!--CSS-->
-    <link rel="stylesheet" href="styles/normalize.css">
+    <!--link rel="stylesheet" href="styles/normalize.css"-->
     <link rel="stylesheet" href="styles/style.css">
 
     <!--JS-->
@@ -42,25 +42,22 @@
     <header>
         <h1>Welcome to the new page!</h1>
         <p>This is my paragraph which comes directly ofter a h1</p>
+        <!--Links to the site's main sections; usually represented by menu buttons, links, or tabs. Like the header, this content usually remains consistent from one webpage to another -->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Our team</a></li>
+                <li><a href="#"> <em>Projects</em></a></li>
+                <li><a href="#">Contact</a></li>
+                <li class="special">
+                    <form>
+                        <input type="search" name="q" placeholder="Search query">
+                        <input type="submit" value="Go!">
+                    </form>                 
+                </li>
+            </ul>
+        </nav>               
     </header>
-    <!--Links to the site's main sections; usually represented by menu buttons, links, or tabs. Like the header, this content usually remains consistent from one webpage to another -->
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Our team</a></li>
-            <li><a href="#"> <em>Projects</em></a></li>
-            <li><a href="#">Contact</a></li>
-            <li class="special">
-                <form>
-                    <input type="search" name="q" placeholder="Search query">
-                    <input type="submit" value="Go!">
-                </form>     
-            
-            </li>
-        </ul>
-            
-    </nav>           
-          
     <!--The biggest region, containing content unique to the current page.-->
     <main>
       <!-- It contains an article -->
@@ -88,7 +85,7 @@
             <object data="file///files/sample.pdf" type="application/pdf" width="800" height="1200">
                 <p>You don't have a PDF plugin, but you can <a href="files/sample.pdf">download the PDF file.</a></p>
             </object>
-            <img src="images/logo.jpg" alt="logo image">
+            <!--img src="images/logo.jpg" alt="logo image"-->
 
         </div>
             <div><label for="name">Name</label>
