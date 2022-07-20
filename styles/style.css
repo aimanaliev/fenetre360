@@ -22,14 +22,19 @@ body {
     position: sticky;
     top: 0;
     margin-top: 0;
-    background: white;
+    background: #9b9bd6;
+    /*opacity: 0.5;*/
     padding: 10px;
   }
 
   .header-wrapper {
     display: flex;
+    /*align-items: center;
+    margin: 0 auto;*/
     width: 100%;
     justify-content: space-between;
+    /*padding-right: 20px;
+    padding-left: 20px;*/
   }
   .header-logo {
     display: flex;

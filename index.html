@@ -30,7 +30,7 @@
     <link rel="apple-touch-icon-precomposed" href="https://developer.mozilla.org/static/img/favicon57.png">
 
     <!--CSS-->
-    <!--link rel="stylesheet" href="styles/normalize.css"-->
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/style.css">
 
     <!--JS-->
@@ -44,24 +44,28 @@
             <a class="header-logo" href="#" title="Visitez Fenetre360.fr">
                 <img src="./images/logo.svg" alt="Fenetre360.fr logo" width="250" height="72">
             </a>
-            <h1>Welcome to the new page!</h1>
+            <div class="header-center">
+                <button class="header-button-question" type="button">
+                    Une question ?
+                </button>
+            </div>
             <p>This is my paragraph which comes directly ofter a h1</p>
-            <!--Links to the site's main sections; usually represented by menu buttons, links, or tabs. Like the header, this content usually remains consistent from one webpage to another -->
-            <nav class="main-nav">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Our team</a></li>
-                    <li><a href="#"> <em>Projects</em></a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li class="special">
-                        <form>
-                            <input type="search" name="q" placeholder="Search query">
-                            <input type="submit" value="Go!">
-                        </form>                 
-                    </li>
-                </ul>
-            </nav>  
-        </div>             
+        </div>
+        <!--Links to the site's main sections; usually represented by menu buttons, links, or tabs. Like the header, this content usually remains consistent from one webpage to another -->
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Our team</a></li>
+                <li><a href="#"> <em>Projects</em></a></li>
+                <li><a href="#">Contact</a></li>
+                <li class="special">
+                    <form>
+                        <input type="search" name="q" placeholder="Search query">
+                        <input type="submit" value="Go!">
+                    </form>                 
+                </li>
+            </ul>
+        </nav>               
     </header>
     <!--The biggest region, containing content unique to the current page.-->
     <main>
